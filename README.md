@@ -1,7 +1,7 @@
 # Airport-Database-Design
-A MySQL DataBase design for a fictional airport. 
+A MySQL Database design for a fictional airport. 
 
-My intention is to explore integrations between Python's SQLModel and MySQL.
+My intention is to explore integrations between Python's SQLModel, Mermaid.js, and the MySQL Workbench app.
 
 Tasks
-- Build a workflow to allow SQLModels to be imported into MySQL Workbench as a ER Diagram.
+- Build a workflow to allow Mermaid JS ER Diagrams to be imported into MySQL Workbench as a ER Diagram.
