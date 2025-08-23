@@ -4,6 +4,8 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "sqlmodel>=0.0.24",
-]
+dependencies = ["mysqlclient>=2.2.7", "sqlmodel>=0.0.24"]
+
+
+[tool.ruff]
+ignore = ["ERA001"] # Ignore commented out code
